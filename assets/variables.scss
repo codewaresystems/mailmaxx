@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Mailmaxx';
+	src: url('~assets/fonts/MailmaxxRegular.woff2') format('woff2');
+	font-weight: bold;
+
+}
+
+@font-face {
+	font-family: 'Mailmaxx Medium';
+	src: url('~assets/fonts/MailmaxxMedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Mailmaxx Bold';
+	src: url('~assets/fonts/MailmaxxBold.woff2') format('woff2');
+	font-weight: bold;
+}
+
+
+
+
+
+*{
+	font-family: 'Mailmaxx', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, .display-1,.display-2,.display-3,.display-4,.display-5, .display-6,.font-weight-bold{
+	font-familiy: 'Mailmaxx Bold', sans-serif !important;
+	line-height: 1 !important;
+	font-weight: bold !important;
+}
+
+$font-size-root: 15px;
+$text-field-border-radius: 0px;
+
+// @import '~vuetify/src/styles/styles.sass';
